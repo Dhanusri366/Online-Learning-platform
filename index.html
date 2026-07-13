@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple Learn Dashboard</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+          <i class="fa-solid fa-book-open-reader"></i>
+            PurpleLearn
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Quiz</a></li>
+            <li><a href="#">Certificates</a></li>
+        </ul>
+
+        <div class="nav-right">
+
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <i class="fa-solid fa-search"></i>
+            </div>
+
+            <i class="fa-solid fa-bell notification"></i>
+
+            <img src="https://i.pravatar.cc/45"
+                class="profile-img"
+                alt="profile">
+
+        </div>
+
+    </nav>
+
+    <!-- Main Layout -->
+
+    <div class="container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <h2>Menu</h2>
+
+            <ul>
+
+                <li><i class="fa-solid fa-chart-line"></i> Dashboard</li>
+
+                <li><i class="fa-solid fa-book-open"></i> My Courses</li>
+
+                <li><i class="fa-solid fa-circle-play"></i> Video Library</li>
+
+                <li><i class="fa-solid fa-chart-pie"></i> Progress</li>
+
+                <li><i class="fa-solid fa-clipboard-question"></i> Quiz</li>
+
+                <li><i class="fa-solid fa-award"></i> Certificates</li>
+
+                <li><i class="fa-solid fa-gear"></i> Settings</li>
+
+                <li><i class="fa-solid fa-right-from-bracket"></i> Logout</li>
+
+            </ul>
+
+        </aside>
+
+        <!-- Main Content -->
+
+        <main class="main-content">
+
+            <h1>Welcome Back 👋</h1>
+
+            <p>Track your learning journey here.</p>
+
+            <!-- Dashboard Cards -->
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <div class="icon">
+                        📚
+                    </div>
+
+                    <h3>Total Courses</h3>
+
+                    <h2 id="totalCourses">12</h2>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon">
+                        ▶
+                    </div>
+
+                    <h3>Videos Watched</h3>
+
+                    <h2 id="videosWatched">95</h2>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon">
+                        📈
+                    </div>
+
+                    <h3>Learning Progress</h3>
+
+                    <h2 id="progress">82%</h2>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="icon">
+                        🏆
+                    </div>
+
+                    <h3>Certificates Earned</h3>
+
+                    <h2 id="certificates">5</h2>
+
+                </div>
+
+            </div>
+
+            <!-- Overview -->
+
+            <section class="overview">
+
+                <h2>Learning Overview</h2>
+
+                <p>
+
+                    Continue learning your enrolled courses and earn certificates
+                    by completing quizzes and video lessons.
+
+                </p>
+
+                <button onclick="location.href='courses.html'">
+                    Explore Courses
+                </button>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        © 2026 Purple Learn Platform | All Rights Reserved
+
+    </footer>
+
+    <script src="./js/dashboard.js"></script>
+
+</body>
+</html>

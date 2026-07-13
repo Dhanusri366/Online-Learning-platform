@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "HTML & CSS Fundamentals",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600",
+    "instructor": "Sarah Johnson",
+    "duration": "8 Hours",
+    "level": "Beginner",
+    "rating": 4.8,
+    "description": "Learn HTML5 and CSS3 from scratch. Build responsive websites using Flexbox and Grid."
+  },
+  {
+    "id": 2,
+    "name": "JavaScript Essentials",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600",
+    "instructor": "David Miller",
+    "duration": "12 Hours",
+    "level": "Beginner",
+    "rating": 4.7,
+    "description": "Master JavaScript fundamentals including variables, functions, DOM, events, and ES6."
+  },
+  {
+    "id": 3,
+    "name": "React Development",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600",
+    "instructor": "Emily Brown",
+    "duration": "18 Hours",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "description": "Build modern React applications using components, hooks, routing, and API integration."
+  },
+  {
+    "id": 4,
+    "name": "Node.js & Express",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600",
+    "instructor": "Michael Wilson",
+    "duration": "15 Hours",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "description": "Create REST APIs using Node.js, Express, middleware, routing, and MongoDB."
+  },
+  {
+    "id": 5,
+    "name": "Python Programming",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600",
+    "instructor": "Sophia Thomas",
+    "duration": "20 Hours",
+    "level": "Beginner",
+    "rating": 4.9,
+    "description": "Learn Python from basics to advanced concepts including OOP and file handling."
+  },
+  {
+    "id": 6,
+    "name": "UI/UX Design",
+    "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=600",
+    "instructor": "Olivia Smith",
+    "duration": "10 Hours",
+    "level": "Beginner",
+    "rating": 4.6,
+    "description": "Understand design principles, wireframing, prototyping, and Figma."
+  },
+  {
+    "id": 7,
+    "name": "Java Programming",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600",
+    "instructor": "James Anderson",
+    "duration": "16 Hours",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "description": "Learn Java programming, object-oriented concepts, collections, and multithreading."
+  },
+  {
+    "id": 8,
+    "name": "Data Structures & Algorithms",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600",
+    "instructor": "Daniel Scott",
+    "duration": "25 Hours",
+    "level": "Advanced",
+    "rating": 5.0,
+    "description": "Master arrays, linked lists, trees, graphs, dynamic programming, and interview problems."
+  }
+  ,{
+  "id": 9,
+  "name": "Advanced CSS & Animations",
+  "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600",
+  "instructor": "Emma Wilson",
+  "duration": "14 Hours",
+  "level": "Intermediate",
+  "rating": 4.8,
+  "description": "Master Flexbox, Grid, CSS animations, transitions, and responsive layouts."
+},
+{
+  "id": 10,
+  "name": "Bootstrap 5 Complete Guide",
+  "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600",
+  "instructor": "Ryan Carter",
+  "duration": "9 Hours",
+  "level": "Beginner",
+  "rating": 4.6,
+  "description": "Build responsive websites quickly using Bootstrap components and utilities."
+},
+{
+  "id": 11,
+  "name": "MongoDB Database",
+  "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600",
+  "instructor": "David Clark",
+  "duration": "11 Hours",
+  "level": "Intermediate",
+  "rating": 4.7,
+  "description": "Learn MongoDB collections, CRUD operations, aggregation, and indexing."
+},
+{
+  "id": 12,
+  "name": "Spring Boot Fundamentals",
+  "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600",
+  "instructor": "Sophia Davis",
+  "duration": "20 Hours",
+  "level": "Advanced",
+  "rating": 4.9,
+  "description": "Develop REST APIs and enterprise applications using Spring Boot."
+},
+{
+  "id": 13,
+  "name": "Machine Learning Basics",
+  "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600",
+  "instructor": "Daniel Lee",
+  "duration": "24 Hours",
+  "level": "Advanced",
+  "rating": 4.9,
+  "description": "Understand machine learning algorithms, regression, classification, and model evaluation."
+},
+{
+  "id": 14,
+  "name": "Python for Data Science",
+  "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600",
+  "instructor": "Grace Taylor",
+  "duration": "18 Hours",
+  "level": "Intermediate",
+  "rating": 4.8,
+  "description": "Use NumPy, Pandas, and Matplotlib for data analysis and visualization."
+},
+{
+  "id": 15,
+  "name": "UI/UX Design with Figma",
+  "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=600",
+  "instructor": "Olivia Martin",
+  "duration": "13 Hours",
+  "level": "Beginner",
+  "rating": 4.7,
+  "description": "Design beautiful user interfaces and interactive prototypes using Figma."
+},
+{
+  "id": 16,
+  "name": "AWS Cloud Essentials",
+  "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600",
+  "instructor": "Chris Anderson",
+  "duration": "15 Hours",
+  "level": "Intermediate",
+  "rating": 4.8,
+  "description": "Learn EC2, S3, IAM, VPC, Lambda, and cloud deployment fundamentals."
+},
+{
+  "id": 17,
+  "name": "Cyber Security Fundamentals",
+  "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600",
+  "instructor": "Michael Scott",
+  "duration": "17 Hours",
+  "level": "Intermediate",
+  "rating": 4.8,
+  "description": "Explore ethical hacking, network security, encryption, and cyber threats."
+},
+{
+  "id": 18,
+  "name": "Artificial Intelligence",
+  "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600",
+  "instructor": "Sophia Green",
+  "duration": "26 Hours",
+  "level": "Advanced",
+  "rating": 5.0,
+  "description": "Learn AI concepts, neural networks, computer vision, and natural language processing."
+},
+{
+  "id": 19,
+  "name": "Flutter App Development",
+  "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600",
+  "instructor": "Nathan Brooks",
+  "duration": "19 Hours",
+  "level": "Intermediate",
+  "rating": 4.8,
+  "description": "Build cross-platform Android and iOS applications using Flutter and Dart."
+},
+{
+  "id": 20,
+  "name": "Git & GitHub Masterclass",
+  "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600",
+  "instructor": "Kevin Thomas",
+  "duration": "7 Hours",
+  "level": "Beginner",
+  "rating": 4.7,
+  "description": "Master Git commands, branching, merging, pull requests, and GitHub collaboration."
+}
+]
