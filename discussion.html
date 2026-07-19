@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleLearn | Discussion Forum</title>
+
+    <link rel="stylesheet" href="./css/discussion.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-comments"></i>
+            PurpleLearn
+        </div>
+         <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="student_home.html">My Courses</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li><a href="discussion.html">Discussions</a></li>
+        </ul>
+
+
+        <div class="nav-right">
+
+            <input
+                type="text"
+                id="searchDiscussion"
+                class="search-input"
+                placeholder="Search by Student Name">
+
+            <button
+                class="login-btn"
+                id="askQuestionBtn">
+
+                <i class="fa-solid fa-plus"></i>
+                Ask Question
+
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- Main Content -->
+
+    <main class="course-container">
+
+        <div class="top-bar">
+            <h2>Student Discussion Forum</h2>
+        </div>
+
+        <!-- Discussion Cards -->
+
+        <div
+            id="discussionContainer"
+            class="course-grid">
+
+        </div>
+
+    </main>
+
+    <!-- Ask Question Modal -->
+
+    <div
+        class="modal"
+        id="questionModal">
+
+        <div class="modal-content">
+
+            <span
+                class="close"
+                id="closeQuestion">
+
+                &times;
+
+            </span>
+
+            <h2>Ask a Question</h2>
+
+            <form id="questionForm">
+
+                <div class="input-group">
+
+                    <label>Question Title</label>
+
+                    <input
+                        type="text"
+                        id="questionTitle"
+                        required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Category</label>
+
+                    <select id="questionCategory">
+
+                        <option>Programming</option>
+                        <option>Web Development</option>
+                        <option>Database</option>
+                        <option>UI/UX</option>
+                        <option>Cloud Computing</option>
+                        <option>Artificial Intelligence</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Description</label>
+
+                    <textarea
+                        id="questionDescription"
+                        rows="5"
+                        required></textarea>
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="login-btn">
+
+                    Post Question
+
+                </button>
+
+                <button
+                    type="button"
+                    class="details-btn"
+                    id="cancelQuestion"
+                    style="width:100%;margin-top:10px;">
+
+                    Cancel
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- View Discussion Modal -->
+
+    <div
+        class="modal"
+        id="discussionModal">
+
+        <div class="modal-content">
+
+            <span
+                class="close"
+                id="closeDiscussion">
+
+                &times;
+
+            </span>
+
+            <div id="discussionDetails"></div>
+
+        </div>
+
+    </div>
+
+    <script src="js/discussion.js"></script>
+
+</body>
+
+</html>

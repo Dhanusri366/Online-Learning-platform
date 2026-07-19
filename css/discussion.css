@@ -1,0 +1,145 @@
+/* ==========================================
+   DISCUSSION FORUM CSS
+========================================== */
+
+/* Discussion Card */
+.course-card{
+    position:relative;
+}
+
+.course-info h3{
+    color:#7C3AED;
+    margin-bottom:10px;
+}
+
+.course-info p{
+    line-height:1.6;
+    margin:8px 0;
+}
+
+/* Discussion Details */
+#discussionDetails h2{
+    color:#7C3AED;
+    margin-bottom:15px;
+}
+
+#discussionDetails h3{
+    color:#7C3AED;
+    margin:25px 0 15px;
+}
+
+#discussionDetails p{
+    line-height:1.7;
+    color:#555;
+}
+
+#discussionDetails hr{
+    border:none;
+    height:1px;
+    background:#E9D5FF;
+    margin:20px 0;
+}
+
+/* Reply Card */
+
+.reply-card{
+    background:#F8F5FF;
+    border-left:5px solid #7C3AED;
+    border-radius:12px;
+    padding:18px;
+    margin-bottom:18px;
+    box-shadow:0 5px 12px rgba(124,58,237,.08);
+}
+
+.reply-card h4{
+    color:#7C3AED;
+    margin-bottom:8px;
+}
+
+.reply-card p{
+    margin:10px 0;
+    color:#444;
+}
+
+.reply-card small{
+    color:#777;
+    display:block;
+    margin-bottom:15px;
+}
+
+/* Buttons inside Reply */
+
+.reply-card .buttons{
+    display:flex;
+    gap:10px;
+}
+
+.reply-card button{
+    flex:1;
+}
+
+/* Ask Question Form */
+
+#questionForm textarea{
+    resize:vertical;
+    min-height:120px;
+}
+
+#questionForm select{
+    cursor:pointer;
+}
+
+/* Discussion Modal */
+
+#discussionModal .modal-content{
+    max-width:700px;
+    max-height:85vh;
+    overflow-y:auto;
+}
+
+/* Reply Count Badge */
+
+.reply-count{
+    display:inline-block;
+    background:#E9D5FF;
+    color:#7C3AED;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+/* Hover Effects */
+
+.course-card:hover{
+    transform:translateY(-8px);
+}
+
+.reply-card:hover{
+    transform:translateY(-3px);
+    transition:.3s;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .reply-card .buttons{
+        flex-direction:column;
+    }
+
+    #discussionModal .modal-content{
+        width:95%;
+        padding:20px;
+    }
+
+    .course-info h3{
+        font-size:20px;
+    }
+
+    #discussionDetails h2{
+        font-size:24px;
+    }
+
+}
