@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleLearn | Admin Dashboard</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            PurpleLearn
+        </div>
+
+        <div class="nav-right">
+
+            <span style="color:white;font-weight:600;">
+                Welcome,
+                <span id="adminName">Admin</span>
+            </span>
+
+            <i class="fa-solid fa-bell notification"></i>
+
+            <img src="https://i.pravatar.cc/150?img=12"
+                class="profile-img"
+                alt="Admin">
+
+            <button
+                class="login-btn"
+                id="logoutBtn"
+                style="width:auto;padding:10px 18px;">
+                Logout
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- Layout -->
+
+    <div class="container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <h2>Admin Panel</h2>
+
+            <ul>
+
+                <li>
+                    <a href="admin-dashboard.html">
+                        <i class="fa-solid fa-house"></i>
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="course-management.html">
+                        <i class="fa-solid fa-book"></i>
+                        Course Management
+                    </a>
+                </li>
+
+                <li>
+                    <a href="faculty-management.html">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        Faculty Management
+                    </a>
+                </li>
+
+                <li>
+                    <a href="student-management.html">
+                        <i class="fa-solid fa-users"></i>
+                        Student Management
+                    </a>
+                </li>
+
+            </ul>
+
+        </aside>
+
+        <!-- Main Content -->
+
+        <main class="main-content">
+
+            <h1>Admin Dashboard</h1>
+
+            <p>Manage courses, faculty, and students.</p>
+
+            <!-- Dashboard Cards -->
+
+            <section class="cards">
+
+                <div class="card">
+                    <div class="icon">👨‍🎓</div>
+                    <h3>Total Students</h3>
+                    <h2 id="studentCount">0</h2>
+                </div>
+
+                <div class="card">
+                    <div class="icon">📚</div>
+                    <h3>Total Courses</h3>
+                    <h2 id="courseCount">0</h2>
+                </div>
+
+                <div class="card">
+                    <div class="icon">👨‍🏫</div>
+                    <h3>Total Faculty</h3>
+                    <h2 id="facultyCount">0</h2>
+                </div>
+
+                <div class="card">
+                    <div class="icon">🟢</div>
+                    <h3>Active Students</h3>
+                    <h2 id="activeCount">0</h2>
+                </div>
+
+            </section>
+
+            <!-- Quick Actions -->
+
+            <section class="overview">
+
+                <h2>Quick Actions</h2>
+
+                <br>
+
+                <button onclick="location.href='course-management.html'">
+                    Manage Courses
+                </button>
+
+                <button onclick="location.href='faculty-management.html'">
+                    Manage Faculty
+                </button>
+
+                <button onclick="location.href='student-management.html'">
+                    Manage Students
+                </button>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <footer>
+
+        © 2026 PurpleLearn | Admin Dashboard
+
+    </footer>
+
+    <script src="./js/admin_dashboard.js"></script>
+
+</body>
+
+</html>

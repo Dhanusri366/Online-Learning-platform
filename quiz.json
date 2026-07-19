@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Transfer Machine Language",
+      "Hyperlinks and Text Machine Language",
+      "Home Tool Markup Language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 2,
+    "question": "Which CSS property changes text color?",
+    "options": [
+      "background-color",
+      "font-color",
+      "color",
+      "text-style"
+    ],
+    "correctAnswer": 2,
+    "marks": 1
+  },
+  {
+    "id": 3,
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": [
+      "<!-- -->",
+      "//",
+      "**",
+      "#"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 4,
+    "question": "Which company developed React?",
+    "options": [
+      "Google",
+      "Microsoft",
+      "Facebook (Meta)",
+      "Amazon"
+    ],
+    "correctAnswer": 2,
+    "marks": 1
+  },
+  {
+    "id": 5,
+    "question": "Which keyword declares a constant in JavaScript?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "marks": 1
+  },
+  {
+    "id": 6,
+    "question": "Which language is mainly used for Android development?",
+    "options": [
+      "Java",
+      "Python",
+      "PHP",
+      "Ruby"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 7,
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>",
+      "<url>"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 8,
+    "question": "Which database is commonly used with the MERN stack?",
+    "options": [
+      "Oracle",
+      "MongoDB",
+      "MySQL",
+      "SQLite"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 9,
+    "question": "Which AWS service provides virtual servers?",
+    "options": [
+      "S3",
+      "EC2",
+      "IAM",
+      "Lambda"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 10,
+    "question": "Which Java collection does not allow duplicate elements?",
+    "options": [
+      "ArrayList",
+      "LinkedList",
+      "Set",
+      "Queue"
+    ],
+    "correctAnswer": 2,
+    "marks": 1
+  },
+  {
+    "id": 11,
+    "question": "Which method is used to print output in Java?",
+    "options": [
+      "echo()",
+      "print()",
+      "System.out.println()",
+      "display()"
+    ],
+    "correctAnswer": 2,
+    "marks": 1
+  },
+  {
+    "id": 12,
+    "question": "Which CSS layout system is one-dimensional?",
+    "options": [
+      "Grid",
+      "Flexbox",
+      "Float",
+      "Table"
+    ],
+    "correctAnswer": 1,
+    "marks": 1
+  },
+  {
+    "id": 13,
+    "question": "Which keyword creates a function in JavaScript?",
+    "options": [
+      "method",
+      "define",
+      "function",
+      "func"
+    ],
+    "correctAnswer": 2,
+    "marks": 1
+  },
+  {
+    "id": 14,
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "System Query List",
+      "Sequential Query Language"
+    ],
+    "correctAnswer": 0,
+    "marks": 1
+  },
+  {
+    "id": 15,
+    "question": "Which Git command uploads local commits to GitHub?",
+    "options": [
+      "git clone",
+      "git pull",
+      "git push",
+      "git init"
+    ],
+    "correctAnswer": 2,
+    "marks": 1
+  }
+]

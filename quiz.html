@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleLearn | Quiz</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/quiz.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-book-open-reader"></i>
+            PurpleLearn
+        </div>
+
+        <div class="nav-right">
+
+            <a href="student_home.html" class="nav-btn">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+
+            <i class="fa-solid fa-bell notification"></i>
+
+            <img src="https://i.pravatar.cc/50"
+                class="profile-img"
+                alt="Student">
+
+        </div>
+
+    </nav>
+
+    <!-- Quiz Container -->
+
+    <section class="quiz-container">
+
+        <div class="quiz-header">
+
+            <h2 id="questionNumber">
+                Question 1 of 10
+            </h2>
+
+            <div class="timer">
+                ⏰
+                <span id="timer">
+                    10:00
+                </span>
+            </div>
+
+        </div>
+
+        <div class="quiz-card">
+
+            <h3 id="question">
+
+                Loading Question...
+
+            </h3>
+
+            <div id="options" class="options">
+
+                <!-- Options from JavaScript -->
+
+            </div>
+
+            <div class="quiz-buttons">
+
+                <button id="prevBtn" class="details-btn">
+
+                    Previous
+
+                </button>
+
+                <button id="nextBtn" class="enroll-btn">
+
+                    Next
+
+                </button>
+
+            </div>
+
+            <button
+                id="submitBtn"
+                class="submit-btn">
+
+                Submit Quiz
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Result Modal -->
+
+    <div
+        class="modal"
+        id="resultModal">
+
+        <div class="modal-content">
+
+            <h2>
+
+                🎉 Quiz Completed
+
+            </h2>
+
+            <div id="resultContent">
+
+            </div>
+
+            <br>
+
+            <button
+                class="enroll-btn submit-btn"
+                onclick="window.location.href='student_home.html'">
+
+                Back to Dashboard
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="./js/quiz.js"></script>
+
+</body>
+
+</html>

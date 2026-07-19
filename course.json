@@ -7,7 +7,57 @@
     "duration": "8 Hours",
     "level": "Beginner",
     "rating": 4.8,
-    "description": "Learn HTML5 and CSS3 from scratch. Build responsive websites using Flexbox and Grid."
+    "description": "Learn HTML5 and CSS3 from scratch. Build responsive websites using Flexbox and Grid.",
+    "category": "Web Development",
+    "fee": 5544,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=1",
+      "name": "Sarah Johnson",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "6 Years",
+      "specialization": "Web Development",
+      "email": "sarah.johnson@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Sarah Johnson is an experienced trainer specializing in Web Development."
+    },
+    "syllabus": {
+      "objectives": "Learn HTML & CSS Fundamentals from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using HTML & CSS Fundamentals.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
   },
   {
     "id": 2,
@@ -17,7 +67,57 @@
     "duration": "12 Hours",
     "level": "Beginner",
     "rating": 4.7,
-    "description": "Master JavaScript fundamentals including variables, functions, DOM, events, and ES6."
+    "description": "Master JavaScript fundamentals including variables, functions, DOM, events, and ES6.",
+    "category": "Programming",
+    "fee": 3397,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=2",
+      "name": "David Miller",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "7 Years",
+      "specialization": "Programming",
+      "email": "david.miller@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "David Miller is an experienced trainer specializing in Programming."
+    },
+    "syllabus": {
+      "objectives": "Learn JavaScript Essentials from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using JavaScript Essentials.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
   },
   {
     "id": 3,
@@ -27,7 +127,57 @@
     "duration": "18 Hours",
     "level": "Intermediate",
     "rating": 4.9,
-    "description": "Build modern React applications using components, hooks, routing, and API integration."
+    "description": "Build modern React applications using components, hooks, routing, and API integration.",
+    "category": "Web Development",
+    "fee": 5964,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=3",
+      "name": "Emily Brown",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "8 Years",
+      "specialization": "Web Development",
+      "email": "emily.brown@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Emily Brown is an experienced trainer specializing in Web Development."
+    },
+    "syllabus": {
+      "objectives": "Learn React Development from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using React Development.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
   },
   {
     "id": 4,
@@ -37,7 +187,57 @@
     "duration": "15 Hours",
     "level": "Intermediate",
     "rating": 4.8,
-    "description": "Create REST APIs using Node.js, Express, middleware, routing, and MongoDB."
+    "description": "Create REST APIs using Node.js, Express, middleware, routing, and MongoDB.",
+    "category": "Backend Development",
+    "fee": 4224,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=4",
+      "name": "Michael Wilson",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "9 Years",
+      "specialization": "Backend Development",
+      "email": "michael.wilson@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Michael Wilson is an experienced trainer specializing in Backend Development."
+    },
+    "syllabus": {
+      "objectives": "Learn Node.js & Express from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Node.js & Express.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
   },
   {
     "id": 5,
@@ -47,7 +247,57 @@
     "duration": "20 Hours",
     "level": "Beginner",
     "rating": 4.9,
-    "description": "Learn Python from basics to advanced concepts including OOP and file handling."
+    "description": "Learn Python from basics to advanced concepts including OOP and file handling.",
+    "category": "Programming",
+    "fee": 5919,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=5",
+      "name": "Sophia Thomas",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "10 Years",
+      "specialization": "Programming",
+      "email": "sophia.thomas@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Sophia Thomas is an experienced trainer specializing in Programming."
+    },
+    "syllabus": {
+      "objectives": "Learn Python Programming from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Python Programming.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
   },
   {
     "id": 6,
@@ -57,7 +307,57 @@
     "duration": "10 Hours",
     "level": "Beginner",
     "rating": 4.6,
-    "description": "Understand design principles, wireframing, prototyping, and Figma."
+    "description": "Understand design principles, wireframing, prototyping, and Figma.",
+    "category": "UI/UX",
+    "fee": 2883,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=6",
+      "name": "Olivia Smith",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "11 Years",
+      "specialization": "UI/UX",
+      "email": "olivia.smith@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Olivia Smith is an experienced trainer specializing in UI/UX."
+    },
+    "syllabus": {
+      "objectives": "Learn UI/UX Design from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using UI/UX Design.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
   },
   {
     "id": 7,
@@ -67,7 +367,57 @@
     "duration": "16 Hours",
     "level": "Intermediate",
     "rating": 4.7,
-    "description": "Learn Java programming, object-oriented concepts, collections, and multithreading."
+    "description": "Learn Java programming, object-oriented concepts, collections, and multithreading.",
+    "category": "Programming",
+    "fee": 5485,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=7",
+      "name": "James Anderson",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "12 Years",
+      "specialization": "Programming",
+      "email": "james.anderson@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "James Anderson is an experienced trainer specializing in Programming."
+    },
+    "syllabus": {
+      "objectives": "Learn Java Programming from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Java Programming.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
   },
   {
     "id": 8,
@@ -76,127 +426,777 @@
     "instructor": "Daniel Scott",
     "duration": "25 Hours",
     "level": "Advanced",
-    "rating": 5.0,
-    "description": "Master arrays, linked lists, trees, graphs, dynamic programming, and interview problems."
+    "rating": 5,
+    "description": "Master arrays, linked lists, trees, graphs, dynamic programming, and interview problems.",
+    "category": "Programming",
+    "fee": 5437,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=8",
+      "name": "Daniel Scott",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "13 Years",
+      "specialization": "Programming",
+      "email": "daniel.scott@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Daniel Scott is an experienced trainer specializing in Programming."
+    },
+    "syllabus": {
+      "objectives": "Learn Data Structures & Algorithms from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Data Structures & Algorithms.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Advanced CSS & Animations",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600",
+    "instructor": "Emma Wilson",
+    "duration": "14 Hours",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "description": "Master Flexbox, Grid, CSS animations, transitions, and responsive layouts.",
+    "category": "Web Development",
+    "fee": 5685,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=9",
+      "name": "Emma Wilson",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "14 Years",
+      "specialization": "Web Development",
+      "email": "emma.wilson@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Emma Wilson is an experienced trainer specializing in Web Development."
+    },
+    "syllabus": {
+      "objectives": "Learn Advanced CSS & Animations from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Advanced CSS & Animations.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Bootstrap 5 Complete Guide",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600",
+    "instructor": "Ryan Carter",
+    "duration": "9 Hours",
+    "level": "Beginner",
+    "rating": 4.6,
+    "description": "Build responsive websites quickly using Bootstrap components and utilities.",
+    "category": "Web Development",
+    "fee": 3657,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=10",
+      "name": "Ryan Carter",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "5 Years",
+      "specialization": "Web Development",
+      "email": "ryan.carter@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Ryan Carter is an experienced trainer specializing in Web Development."
+    },
+    "syllabus": {
+      "objectives": "Learn Bootstrap 5 Complete Guide from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Bootstrap 5 Complete Guide.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "MongoDB Database",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600",
+    "instructor": "David Clark",
+    "duration": "11 Hours",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "description": "Learn MongoDB collections, CRUD operations, aggregation, and indexing.",
+    "category": "Database",
+    "fee": 3435,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=11",
+      "name": "David Clark",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "6 Years",
+      "specialization": "Database",
+      "email": "david.clark@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "David Clark is an experienced trainer specializing in Database."
+    },
+    "syllabus": {
+      "objectives": "Learn MongoDB Database from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using MongoDB Database.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Spring Boot Fundamentals",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600",
+    "instructor": "Sophia Davis",
+    "duration": "20 Hours",
+    "level": "Advanced",
+    "rating": 4.9,
+    "description": "Develop REST APIs and enterprise applications using Spring Boot.",
+    "category": "Backend Development",
+    "fee": 3454,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=12",
+      "name": "Sophia Davis",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "7 Years",
+      "specialization": "Backend Development",
+      "email": "sophia.davis@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Sophia Davis is an experienced trainer specializing in Backend Development."
+    },
+    "syllabus": {
+      "objectives": "Learn Spring Boot Fundamentals from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Spring Boot Fundamentals.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Machine Learning Basics",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600",
+    "instructor": "Daniel Lee",
+    "duration": "24 Hours",
+    "level": "Advanced",
+    "rating": 4.9,
+    "description": "Understand machine learning algorithms, regression, classification, and model evaluation.",
+    "category": "Artificial Intelligence",
+    "fee": 4456,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=13",
+      "name": "Daniel Lee",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "8 Years",
+      "specialization": "Artificial Intelligence",
+      "email": "daniel.lee@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Daniel Lee is an experienced trainer specializing in Artificial Intelligence."
+    },
+    "syllabus": {
+      "objectives": "Learn Machine Learning Basics from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Machine Learning Basics.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Python for Data Science",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600",
+    "instructor": "Grace Taylor",
+    "duration": "18 Hours",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "description": "Use NumPy, Pandas, and Matplotlib for data analysis and visualization.",
+    "category": "Data Science",
+    "fee": 3274,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=14",
+      "name": "Grace Taylor",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "9 Years",
+      "specialization": "Data Science",
+      "email": "grace.taylor@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Grace Taylor is an experienced trainer specializing in Data Science."
+    },
+    "syllabus": {
+      "objectives": "Learn Python for Data Science from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Python for Data Science.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "UI/UX Design with Figma",
+    "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=600",
+    "instructor": "Olivia Martin",
+    "duration": "13 Hours",
+    "level": "Beginner",
+    "rating": 4.7,
+    "description": "Design beautiful user interfaces and interactive prototypes using Figma.",
+    "category": "UI/UX",
+    "fee": 5404,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=15",
+      "name": "Olivia Martin",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "10 Years",
+      "specialization": "UI/UX",
+      "email": "olivia.martin@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Olivia Martin is an experienced trainer specializing in UI/UX."
+    },
+    "syllabus": {
+      "objectives": "Learn UI/UX Design with Figma from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using UI/UX Design with Figma.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "AWS Cloud Essentials",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600",
+    "instructor": "Chris Anderson",
+    "duration": "15 Hours",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "description": "Learn EC2, S3, IAM, VPC, Lambda, and cloud deployment fundamentals.",
+    "category": "Cloud Computing",
+    "fee": 3616,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=16",
+      "name": "Chris Anderson",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "11 Years",
+      "specialization": "Cloud Computing",
+      "email": "chris.anderson@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Chris Anderson is an experienced trainer specializing in Cloud Computing."
+    },
+    "syllabus": {
+      "objectives": "Learn AWS Cloud Essentials from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using AWS Cloud Essentials.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Cyber Security Fundamentals",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600",
+    "instructor": "Michael Scott",
+    "duration": "17 Hours",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "description": "Explore ethical hacking, network security, encryption, and cyber threats.",
+    "category": "Cyber Security",
+    "fee": 4553,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=17",
+      "name": "Michael Scott",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "12 Years",
+      "specialization": "Cyber Security",
+      "email": "michael.scott@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Michael Scott is an experienced trainer specializing in Cyber Security."
+    },
+    "syllabus": {
+      "objectives": "Learn Cyber Security Fundamentals from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Cyber Security Fundamentals.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Artificial Intelligence",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600",
+    "instructor": "Sophia Green",
+    "duration": "26 Hours",
+    "level": "Advanced",
+    "rating": 5,
+    "description": "Learn AI concepts, neural networks, computer vision, and natural language processing.",
+    "category": "Artificial Intelligence",
+    "fee": 4716,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=18",
+      "name": "Sophia Green",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "13 Years",
+      "specialization": "Artificial Intelligence",
+      "email": "sophia.green@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Sophia Green is an experienced trainer specializing in Artificial Intelligence."
+    },
+    "syllabus": {
+      "objectives": "Learn Artificial Intelligence from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Artificial Intelligence.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Flutter App Development",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600",
+    "instructor": "Nathan Brooks",
+    "duration": "19 Hours",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "description": "Build cross-platform Android and iOS applications using Flutter and Dart.",
+    "category": "Mobile Development",
+    "fee": 3937,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=19",
+      "name": "Nathan Brooks",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "14 Years",
+      "specialization": "Mobile Development",
+      "email": "nathan.brooks@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Nathan Brooks is an experienced trainer specializing in Mobile Development."
+    },
+    "syllabus": {
+      "objectives": "Learn Flutter App Development from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Flutter App Development.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Git & GitHub Masterclass",
+    "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600",
+    "instructor": "Kevin Thomas",
+    "duration": "7 Hours",
+    "level": "Beginner",
+    "rating": 4.7,
+    "description": "Master Git commands, branching, merging, pull requests, and GitHub collaboration.",
+    "category": "Version Control",
+    "fee": 4270,
+    "faculty": {
+      "photo": "https://i.pravatar.cc/150?u=20",
+      "name": "Kevin Thomas",
+      "designation": "Senior Trainer",
+      "qualification": "M.Tech",
+      "experience": "5 Years",
+      "specialization": "Version Control",
+      "email": "kevin.thomas@purplelearn.com",
+      "phone": "+91 9876543210",
+      "bio": "Kevin Thomas is an experienced trainer specializing in Version Control."
+    },
+    "syllabus": {
+      "objectives": "Learn Git & GitHub Masterclass from beginner to advanced level.",
+      "prerequisites": "Basic computer knowledge.",
+      "outcomes": "Successfully build projects using Git & GitHub Masterclass.",
+      "modules": [
+        {
+          "title": "Module 1",
+          "topics": "Introduction & Fundamentals",
+          "lessons": 6,
+          "duration": "2 Hours"
+        },
+        {
+          "title": "Module 2",
+          "topics": "Core Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 3",
+          "topics": "Hands-on Projects",
+          "lessons": 10,
+          "duration": "4 Hours"
+        },
+        {
+          "title": "Module 4",
+          "topics": "Advanced Concepts",
+          "lessons": 8,
+          "duration": "3 Hours"
+        },
+        {
+          "title": "Module 5",
+          "topics": "Final Project",
+          "lessons": 5,
+          "duration": "2 Hours"
+        }
+      ]
+    }
   }
-  ,{
-  "id": 9,
-  "name": "Advanced CSS & Animations",
-  "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600",
-  "instructor": "Emma Wilson",
-  "duration": "14 Hours",
-  "level": "Intermediate",
-  "rating": 4.8,
-  "description": "Master Flexbox, Grid, CSS animations, transitions, and responsive layouts."
-},
-{
-  "id": 10,
-  "name": "Bootstrap 5 Complete Guide",
-  "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600",
-  "instructor": "Ryan Carter",
-  "duration": "9 Hours",
-  "level": "Beginner",
-  "rating": 4.6,
-  "description": "Build responsive websites quickly using Bootstrap components and utilities."
-},
-{
-  "id": 11,
-  "name": "MongoDB Database",
-  "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600",
-  "instructor": "David Clark",
-  "duration": "11 Hours",
-  "level": "Intermediate",
-  "rating": 4.7,
-  "description": "Learn MongoDB collections, CRUD operations, aggregation, and indexing."
-},
-{
-  "id": 12,
-  "name": "Spring Boot Fundamentals",
-  "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600",
-  "instructor": "Sophia Davis",
-  "duration": "20 Hours",
-  "level": "Advanced",
-  "rating": 4.9,
-  "description": "Develop REST APIs and enterprise applications using Spring Boot."
-},
-{
-  "id": 13,
-  "name": "Machine Learning Basics",
-  "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600",
-  "instructor": "Daniel Lee",
-  "duration": "24 Hours",
-  "level": "Advanced",
-  "rating": 4.9,
-  "description": "Understand machine learning algorithms, regression, classification, and model evaluation."
-},
-{
-  "id": 14,
-  "name": "Python for Data Science",
-  "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600",
-  "instructor": "Grace Taylor",
-  "duration": "18 Hours",
-  "level": "Intermediate",
-  "rating": 4.8,
-  "description": "Use NumPy, Pandas, and Matplotlib for data analysis and visualization."
-},
-{
-  "id": 15,
-  "name": "UI/UX Design with Figma",
-  "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=600",
-  "instructor": "Olivia Martin",
-  "duration": "13 Hours",
-  "level": "Beginner",
-  "rating": 4.7,
-  "description": "Design beautiful user interfaces and interactive prototypes using Figma."
-},
-{
-  "id": 16,
-  "name": "AWS Cloud Essentials",
-  "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600",
-  "instructor": "Chris Anderson",
-  "duration": "15 Hours",
-  "level": "Intermediate",
-  "rating": 4.8,
-  "description": "Learn EC2, S3, IAM, VPC, Lambda, and cloud deployment fundamentals."
-},
-{
-  "id": 17,
-  "name": "Cyber Security Fundamentals",
-  "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600",
-  "instructor": "Michael Scott",
-  "duration": "17 Hours",
-  "level": "Intermediate",
-  "rating": 4.8,
-  "description": "Explore ethical hacking, network security, encryption, and cyber threats."
-},
-{
-  "id": 18,
-  "name": "Artificial Intelligence",
-  "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600",
-  "instructor": "Sophia Green",
-  "duration": "26 Hours",
-  "level": "Advanced",
-  "rating": 5.0,
-  "description": "Learn AI concepts, neural networks, computer vision, and natural language processing."
-},
-{
-  "id": 19,
-  "name": "Flutter App Development",
-  "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600",
-  "instructor": "Nathan Brooks",
-  "duration": "19 Hours",
-  "level": "Intermediate",
-  "rating": 4.8,
-  "description": "Build cross-platform Android and iOS applications using Flutter and Dart."
-},
-{
-  "id": 20,
-  "name": "Git & GitHub Masterclass",
-  "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600",
-  "instructor": "Kevin Thomas",
-  "duration": "7 Hours",
-  "level": "Beginner",
-  "rating": 4.7,
-  "description": "Master Git commands, branching, merging, pull requests, and GitHub collaboration."
-}
 ]

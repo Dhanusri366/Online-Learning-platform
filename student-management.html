@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleLearn | Student Management</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            PurpleLearn
+        </div>
+
+        <div class="nav-right">
+
+            <input
+                type="text"
+                id="searchStudent"
+                class="search-input"
+                placeholder="Search Student">
+
+            <button
+                class="login-btn"
+                onclick="location.href='admin_dashboard.html'">
+
+                Dashboard
+
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- Main -->
+
+    <main class="course-container">
+
+        <div class="top-bar">
+
+            <h2>Student Management</h2>
+
+        </div>
+
+        <!-- Student Cards -->
+
+        <div
+            id="studentGrid"
+            class="course-grid">
+
+        </div>
+
+    </main>
+
+    <!-- View Student -->
+
+    <div
+        class="modal"
+        id="studentModal">
+
+        <div class="modal-content">
+
+            <span
+                class="close"
+                id="closeStudent">
+
+                &times;
+
+            </span>
+
+            <div id="studentDetails"></div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/student-management.js"></script>
+
+</body>
+
+</html>

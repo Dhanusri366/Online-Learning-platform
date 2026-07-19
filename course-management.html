@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PurpleLearn | Course Management</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-graduation-cap"></i>
+        PurpleLearn
+      </div>
+
+      <div class="nav-right">
+        <input
+          type="text"
+          id="searchCourse"
+          class="search-input"
+          placeholder="Search Course..."
+        />
+
+        <img src="https://i.pravatar.cc/150?img=12" class="profile-img" />
+
+        <button
+          class="login-btn"
+          onclick="location.href = 'admin_dashboard.html'"
+        >
+          Dashboard
+        </button>
+      </div>
+    </nav>
+
+    <main class="course-container">
+      <div class="top-bar">
+        <h2>Course Management</h2>
+
+        <button class="enroll-btn" id="addCourseBtn">
+          <i class="fa-solid fa-plus"></i>
+
+          Add Course
+        </button>
+      </div>
+
+      <!-- Course Cards -->
+
+      <div id="courseGrid" class="course-grid"></div>
+    </main>
+
+    <!-- Add/Edit Modal -->
+
+    <div class="modal" id="courseModal">
+      <div class="modal-content">
+        <span class="close" id="closeModal"> &times; </span>
+
+        <h2 id="modalTitle">Add Course</h2>
+
+        <form id="courseForm">
+          <input type="hidden" id="courseId" />
+
+          <div class="input-group">
+            <label>Course Name</label>
+
+            <input type="text" id="courseName" required />
+          </div>
+
+          <div class="input-group">
+            <label>Category</label>
+
+            <input type="text" id="category" />
+          </div>
+
+          <div class="input-group">
+            <label>Duration</label>
+
+            <input type="text" id="duration" required />
+          </div>
+
+          <div class="input-group">
+            <label>Fee</label>
+
+            <input type="number" id="fee" required />
+          </div>
+
+          <div class="input-group">
+            <label>Instructor</label>
+
+            <input type="text" id="instructor" />
+          </div>
+
+          <div class="input-group">
+            <label>Image URL</label>
+
+            <input type="text" id="image" />
+          </div>
+
+          <button class="login-btn" type="submit">Save Course</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- View Details Modal -->
+
+    <div class="modal" id="viewModal">
+      <div class="modal-content">
+        <span class="close" id="closeView"> &times; </span>
+
+        <div id="courseDetails"></div>
+      </div>
+    </div>
+
+    <script src="./js/course-management.js"></script>
+  </body>
+</html>

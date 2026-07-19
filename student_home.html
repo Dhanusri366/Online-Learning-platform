@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleLearn | Student Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/student.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-book-open-reader"></i>
+            PurpleLearn
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="student_home.html">My Courses</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="#">Certificates</a></li>
+        </ul>
+
+        <div class="nav-right">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchCourse"
+                    placeholder="Search Courses...">
+
+                <i class="fa-solid fa-search"></i>
+
+            </div>
+
+            <i class="fa-solid fa-bell notification"></i>
+
+            <img
+                src="https://i.pravatar.cc/50"
+                class="profile-img"
+                alt="Student">
+
+            <button
+                id="logoutBtn"
+                class="login-btn"
+                style="width:auto;padding:10px 20px;">
+                Logout
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- Welcome -->
+
+    <section class="student-banner">
+
+        <div>
+
+            <h1>
+                Welcome,
+                <span id="studentName">
+                    Student
+                </span>
+                👋
+            </h1>
+
+            <p>
+
+                Continue your learning journey with PurpleLearn.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Dashboard Cards -->
+
+    <section class="cards">
+
+        <div class="card">
+
+            <div class="icon">📚</div>
+
+            <h3>Available Courses</h3>
+
+            <h2 id="availableCount">20</h2>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icon">🎓</div>
+
+            <h3>Enrolled Courses</h3>
+
+            <h2 id="enrolledCount">0</h2>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icon">📅</div>
+
+            <h3>Upcoming Classes</h3>
+
+            <h2>5</h2>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icon">🏆</div>
+
+            <h3>Certificates</h3>
+
+            <h2>2</h2>
+
+        </div>
+
+    </section>
+
+    <!-- Available Courses -->
+
+    <section class="course-container">
+
+        <div class="top-bar">
+
+            <h2>Available Courses</h2>
+
+            <select id="categoryFilter">
+
+                <option value="All">
+                    All Categories
+                </option>
+
+                <option value="Web Development">
+                    Web Development
+                </option>
+
+                <option value="Programming">
+                    Programming
+                </option>
+
+                <option value="Cloud Computing">
+                    Cloud Computing
+                </option>
+
+                <option value="Artificial Intelligence">
+                    Artificial Intelligence
+                </option>
+
+                <option value="UI/UX">
+                    UI / UX
+                </option>
+
+            </select>
+
+        </div>
+
+        <div
+            id="availableCourses"
+            class="course-grid">
+
+        </div>
+
+    </section>
+
+    <!-- My Courses -->
+
+    <section class="course-container">
+
+        <h2>
+
+            🎓 My Courses
+
+        </h2>
+
+        <br>
+
+        <div
+            id="myCourses"
+            class="course-grid">
+
+        </div>
+
+    </section>
+        <!-- Faculty Modal -->
+
+    <div
+        class="modal"
+        id="facultyModal">
+
+        <div class="modal-content">
+
+            <span class="close" id="closeFaculty">
+
+                &times;
+
+            </span>
+
+            <div id="facultyContent"></div>
+
+        </div>
+
+    </div>
+
+    <!-- Syllabus Modal -->
+
+    <div
+        class="modal"
+        id="syllabusModal">
+
+        <div class="modal-content">
+
+            <span class="close" id="closeSyllabus">
+
+                &times;
+
+            </span>
+
+            <div id="syllabusContent"></div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        © 2026 PurpleLearn | All Rights Reserved
+
+    </footer>
+
+    <script src="./js/student.js"></script>
+
+</body>
+</html>

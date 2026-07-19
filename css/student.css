@@ -1,0 +1,339 @@
+/* ==========================================
+   STUDENT HOME PAGE
+========================================== */
+
+/* Welcome Banner */
+.student-banner{
+    margin:30px;
+    padding:35px 40px;
+    border-radius:20px;
+    background:linear-gradient(135deg,#7C3AED,#A855F7);
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 10px 25px rgba(124,58,237,.25);
+}
+
+.student-banner h1{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.student-banner p{
+    font-size:16px;
+    opacity:.95;
+}
+
+/* Dashboard Cards */
+.cards{
+    padding:0 30px;
+    margin-bottom:35px;
+}
+
+.cards .card{
+    background:#fff;
+    border-radius:20px;
+    padding:28px;
+    box-shadow:0 8px 20px rgba(124,58,237,.15);
+    transition:.3s;
+    border-top:5px solid #7C3AED;
+}
+
+.cards .card:hover{
+    transform:translateY(-8px);
+}
+
+.cards .icon{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.cards h3{
+    color:#666;
+    margin-bottom:10px;
+}
+
+.cards h2{
+    color:#7C3AED;
+    font-size:32px;
+}
+
+/* Student Course Sections */
+.course-container{
+    padding:35px;
+}
+
+.course-container h2{
+    color:#7C3AED;
+    margin-bottom:20px;
+}
+
+/* My Course Cards */
+.course-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(124,58,237,.15);
+    transition:.3s;
+}
+
+.course-card:hover{
+    transform:translateY(-8px);
+}
+
+.course-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.course-info{
+    padding:22px;
+}
+
+.course-info h3{
+    color:#7C3AED;
+    margin-bottom:10px;
+}
+
+.course-info p{
+    color:#555;
+    margin:7px 0;
+}
+
+/* Progress Bar */
+
+progress{
+    width:100%;
+    height:15px;
+    margin-top:10px;
+    margin-bottom:15px;
+    accent-color:#7C3AED;
+}
+
+/* Buttons */
+
+.buttons{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.buttons button{
+    flex:1;
+    border:none;
+    border-radius:10px;
+    padding:11px;
+    cursor:pointer;
+    color:#fff;
+    font-weight:600;
+    transition:.3s;
+}
+
+.buttons button:hover{
+    transform:scale(1.03);
+}
+
+.enroll-btn{
+    background:#7C3AED;
+}
+
+.details-btn{
+    background:#A855F7;
+}
+
+/* Faculty & Syllabus Modal */
+
+.modal{
+    display:none;
+    position:fixed;
+    inset:0;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,.45);
+    z-index:999;
+}
+
+.modal-content{
+
+    width:90%;
+    max-width:650px;
+
+    max-height:85vh;
+    overflow-y:auto;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    position:relative;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.modal-content img{
+
+    display:block;
+    margin:auto;
+    border-radius:50%;
+}
+
+.modal-content h2{
+
+    text-align:center;
+    color:#7C3AED;
+    margin:15px 0;
+
+}
+
+.modal-content h3{
+
+    color:#7C3AED;
+    margin-top:18px;
+
+}
+
+.modal-content p{
+
+    margin:8px 0;
+    color:#555;
+
+}
+
+.close{
+
+    position:absolute;
+
+    right:20px;
+
+    top:15px;
+
+    font-size:30px;
+
+    color:#7C3AED;
+
+    cursor:pointer;
+
+}
+
+/* Empty My Courses */
+
+#myCourses p{
+
+    text-align:center;
+
+    color:#777;
+
+    padding:40px;
+
+    font-size:18px;
+
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:auto;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.student-banner{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:20px;
+
+}
+
+.cards{
+
+    padding:20px;
+
+}
+
+.course-container{
+
+    padding:20px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.student-banner h1{
+
+    font-size:28px;
+
+}
+
+.buttons{
+
+    flex-direction:column;
+
+}
+
+.course-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.search-box input{
+
+    width:140px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.student-banner{
+
+    margin:15px;
+
+    padding:25px;
+
+}
+
+.student-banner h1{
+
+    font-size:24px;
+
+}
+
+.cards{
+
+    padding:15px;
+
+}
+
+.course-container{
+
+    padding:15px;
+
+}
+
+.modal-content{
+
+    width:95%;
+
+    padding:20px;
+
+}
+
+}

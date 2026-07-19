@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurpleLearn | Faculty Management</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            PurpleLearn
+        </div>
+
+        <div class="nav-right">
+
+            <input
+                type="text"
+                id="searchFaculty"
+                class="search-input"
+                placeholder="Search Faculty">
+
+            <button
+                class="login-btn"
+                onclick="location.href='admin_dashboard.html'">
+
+                Dashboard
+
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- Main -->
+
+    <main class="course-container">
+
+        <div class="top-bar">
+
+            <h2>Faculty Management</h2>
+
+            <button
+                class="enroll-btn"
+                id="addFacultyBtn">
+
+                <i class="fa-solid fa-plus"></i>
+
+                Add Faculty
+
+            </button>
+
+        </div>
+
+        <!-- Faculty Grid -->
+
+        <div
+            id="facultyGrid"
+            class="course-grid">
+
+        </div>
+
+    </main>
+
+    <!-- Faculty Modal -->
+
+    <div
+        class="modal"
+        id="facultyModal">
+
+        <div class="modal-content">
+
+            <span
+                class="close"
+                id="closeFaculty">
+
+                &times;
+
+            </span>
+
+            <h2 id="facultyTitle">
+
+                Add Faculty
+
+            </h2>
+
+            <form id="facultyForm">
+
+                <input
+                    type="hidden"
+                    id="facultyId">
+
+                <div class="input-group">
+
+                    <label>Name</label>
+
+                    <input
+                        type="text"
+                        id="facultyName"
+                        required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Designation</label>
+
+                    <input
+                        type="text"
+                        id="designation">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Qualification</label>
+
+                    <input
+                        type="text"
+                        id="qualification">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Experience</label>
+
+                    <input
+                        type="text"
+                        id="experience">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Email</label>
+
+                    <input
+                        type="email"
+                        id="facultyEmail">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Contact Number</label>
+
+                    <input
+                        type="text"
+                        id="facultyPhone">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Photo URL</label>
+
+                    <input
+                        type="text"
+                        id="facultyPhoto">
+
+                </div>
+
+                <button
+                    class="login-btn"
+                    type="submit">
+
+                    Save Faculty
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- View Faculty -->
+
+    <div
+        class="modal"
+        id="facultyViewModal">
+
+        <div class="modal-content">
+
+            <span
+                class="close"
+                id="closeFacultyView">
+
+                &times;
+
+            </span>
+
+            <div id="facultyDetails"></div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/facult.js"></script>
+
+</body>
+
+</html>
